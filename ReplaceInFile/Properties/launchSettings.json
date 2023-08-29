@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ReplaceInFile": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\repos\\ReplaceInFile\\md.md\" \"dejan\" \"djenic\""
+    }
+  }
+}

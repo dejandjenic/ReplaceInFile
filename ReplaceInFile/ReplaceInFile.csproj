@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+
+		<PackAsTool>true</PackAsTool>
+		<ToolCommandName>replaceinfile</ToolCommandName>
+		<PackageOutputPath>./nupkg</PackageOutputPath>
+
+
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>ReplaceInFile</PackageId>
+		<Authors>Dejan Đenić</Authors>
+		<Company>dejandjenic@gmail.com</Company>
+		<Product>Replace in file</Product>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+
+		<None Include="README.md" Pack="true" PackagePath="\" />
+
+	</ItemGroup>
+
+</Project>
